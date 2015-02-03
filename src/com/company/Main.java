@@ -19,7 +19,8 @@ public class Main {
         // Arrays are indexed with same length so you know who has the corresponding time
         String[] names = { "Elena", "Thomas", "Hamilton", "Suzie", "Phil", "Matt" ,"Alex", "Emma", "John", "James", "Jane", "Emily", "Daniel", "Neda", "Aaron" ,"Kate" };
         int[] times = new int[]{ 341, 273, 278, 329, 445, 402, 388, 275, 243, 334, 412, 393, 299, 343, 317, 265 };
-      
+
+        // Test to see if there is anything in the arrays and if not exit with error message.
         if(times.length == 0 && names.length == 0)
         {
           System.out.print ("There are not registered names or times in the arrays!\n Bailing out now!");
